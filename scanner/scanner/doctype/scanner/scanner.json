@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-05-04 17:43:57.558467",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image1",
+  "column_break_agel",
+  "image_preview_1",
+  "column_break_o1iz",
+  "scan_image1",
+  "section_break_euei",
+  "image2",
+  "column_break_xjf5",
+  "image_preview_2",
+  "column_break_3tqd",
+  "scan_image2",
+  "section_break_h9fc",
+  "visitings_data"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_h9fc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "visitings_data",
+   "fieldtype": "Table",
+   "label": "Visitings Data",
+   "options": "Visiting Data"
+  },
+  {
+   "fieldname": "column_break_agel",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image2",
+   "fieldtype": "Attach Image",
+   "label": "Image2"
+  },
+  {
+   "fieldname": "section_break_euei",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "image_preview_1",
+   "fieldtype": "Image",
+   "label": "Image Preview 1",
+   "options": "image1"
+  },
+  {
+   "fieldname": "column_break_xjf5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_preview_2",
+   "fieldtype": "Image",
+   "label": "Image Preview 2",
+   "options": "image2"
+  },
+  {
+   "fieldname": "column_break_o1iz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3tqd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image1",
+   "fieldtype": "Attach Image",
+   "label": "Image1"
+  },
+  {
+   "default": "0",
+   "fieldname": "scan_image1",
+   "fieldtype": "Check",
+   "label": "Scan Image"
+  },
+  {
+   "default": "0",
+   "fieldname": "scan_image2",
+   "fieldtype": "Check",
+   "label": "Scan Images"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-18 16:26:42.189009",
+ "modified_by": "Administrator",
+ "module": "scanner",
+ "name": "Scanner",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
