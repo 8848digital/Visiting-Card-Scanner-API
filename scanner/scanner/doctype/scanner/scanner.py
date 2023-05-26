@@ -1,14 +1,11 @@
-# Copyright (c) 2023, scanner and contributors
-# For license information, please see license.txt
+
 import frappe
 import json
 from frappe.model.document import Document
 from scanner.scanner.API.visiting_card_api import get_visiting
 
-
 class Scanner(Document):
 	def validate(self ,method=None):
-		# print("event function",type(self.scan_image1))
 		if self.has_value_changed("scan_image1") and (self.scan_image1 == 1):
 			print("Running for scan_image1")
 			self.visiting_data("image1")
