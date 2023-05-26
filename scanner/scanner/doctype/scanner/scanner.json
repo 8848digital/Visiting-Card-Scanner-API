@@ -7,6 +7,10 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "key",
+  "column_break_q2lep",
+  "secret",
+  "section_break_0qwoa",
   "image1",
   "column_break_agel",
   "image_preview_1",
@@ -85,11 +89,29 @@
    "fieldname": "scan_image2",
    "fieldtype": "Check",
    "label": "Scan Images"
+  },
+  {
+   "fieldname": "column_break_q2lep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_0qwoa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "key",
+   "fieldtype": "Data",
+   "label": "API Key "
+  },
+  {
+   "fieldname": "secret",
+   "fieldtype": "Data",
+   "label": "API Secret"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-05-18 16:26:42.189009",
+ "modified": "2023-05-26 10:42:01.620304",
  "modified_by": "Administrator",
  "module": "scanner",
  "name": "Scanner",

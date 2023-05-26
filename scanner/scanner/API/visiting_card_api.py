@@ -3,7 +3,7 @@ import requests
 import os
 
 def get_visiting(self,fieldname):
-    url = 'https://app.nanonets.com/api/v2/OCR/Model/ddc44799-2556-4762-85f5-8a83aa110cff/LabelUrls/?async=false'
+    url = 'https://app.nanonets.com/api/v2/OCR/Model/' + self.secret + '/LabelUrls/?async=false'
     headers = {'accept': 'application/x-www-form-urlencoded'}
     path = os.getcwd()
     site = frappe.local.site
@@ -12,5 +12,5 @@ def get_visiting(self,fieldname):
     # if self.image2:
     #     file_path = f'{path}/{site}/public{self.image2}'
     files = {'file': open(file_path, 'rb')}
-    response = requests.post(url, auth=requests.auth.HTTPBasicAuth('9bf2973c-f54e-11ed-84a6-1a90630ee22b', ''), files=files)
+    response = requests.post(url, auth=requests.auth.HTTPBasicAuth(self.key, ''), files=files)
     return response.json()

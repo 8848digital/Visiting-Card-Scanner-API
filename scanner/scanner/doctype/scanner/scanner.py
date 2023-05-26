@@ -4,7 +4,6 @@ import frappe
 import json
 from frappe.model.document import Document
 from scanner.scanner.API.visiting_card_api import get_visiting
-from frappe.model.document import Document
 
 
 class Scanner(Document):
