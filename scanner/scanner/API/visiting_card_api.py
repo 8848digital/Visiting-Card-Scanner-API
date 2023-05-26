@@ -3,7 +3,7 @@ import requests
 import os
 
 def get_visiting(self,fieldname):
-    url = 'https://app.nanonets.com/api/v2/OCR/Model/' + self.secret + '/LabelUrls/?async=false'
+    url = 'https://app.nanonets.com/api/v2/OCR/Model/' + self.secret +'/LabelUrls/?async=false'
     headers = {'accept': 'application/x-www-form-urlencoded'}
     path = os.getcwd()
     site = frappe.local.site

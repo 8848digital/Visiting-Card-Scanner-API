@@ -8,7 +8,6 @@
  "engine": "InnoDB",
  "field_order": [
   "key",
-  "column_break_q2lep",
   "secret",
   "section_break_0qwoa",
   "image1",
@@ -91,10 +90,6 @@
    "label": "Scan Images"
   },
   {
-   "fieldname": "column_break_q2lep",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "section_break_0qwoa",
    "fieldtype": "Section Break"
   },
@@ -111,7 +106,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-05-26 10:42:01.620304",
+ "modified": "2023-05-26 11:02:49.335805",
  "modified_by": "Administrator",
  "module": "scanner",
  "name": "Scanner",
